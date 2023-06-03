@@ -1,11 +1,11 @@
 # Introduction
-This repo contains Databricks Notebook and Power BI report which helps to analyze Popular Movies in IMDB. It is based on data from following sources:
-* [IMDb Datasets](https://datasets.imdbws.com/)
-* [IMDB](https://www.imdb.com/) web-scapping for getting Top/Popular movies
-* [Box Office Mojo](https://www.boxofficemojo.com) web-scapping for getting BOX Office details of few movies.
+This repository contains a Databricks Notebook and a Power BI report that help you analyze the popularity of movies on IMDB. The analysis is based on the following data sources:
+* [IMDb Datasets](https://datasets.imdbws.com/), which provide various information about movies, such as ratings, genres, cast, crew, etc.
+* [IMDB](https://www.imdb.com/) website, which is scraped to obtain the list of top and popular movies according to different criteria, such as user ratings, votes, etc.
+* [Box Office Mojo](https://www.boxofficemojo.com) website, which is scraped to obtain the overall box office details of some movies.
 
 # IMDB ELT Databricks
-The notebook does the ELT process in Databricks. It can be executed in [Databricks Community Edition](https://docs.databricks.com/getting-started/community-edition.html).
+The notebook performs the extract, load and transform (ELT) process on the data sources. It can be executed in [Databricks Community Edition](https://docs.databricks.com/getting-started/community-edition.html).
 
 # IMDB Popular Movie Analysis
-This contains the Power BI visualization based on the gold view in Databricks. Pass the Databricks Cluster ID and Workspace ID (found in URL) as parameter values for refreshing the report, after the notebook is executed in Databricks. The final report is also available [here](https://app.powerbi.com/view?r=eyJrIjoiZTllYjVkN2ItZDI2MS00N2VjLThhYTEtN2M5ZGVkYzNjODA2IiwidCI6IjgxNDQwMDExLTVhZTQtNDhmNy1hY2YwLTg2ZjBkNWQ2YTFlMiJ9).
+This report visualizes the results of the analysis based on the gold view in Databricks. To refresh the report, you need to pass the Databricks Cluster ID and Workspace ID (found in the URL) as parameter values after running the notebook in Databricks. The final report is also available [here](https://app.powerbi.com/view?r=eyJrIjoiZTllYjVkN2ItZDI2MS00N2VjLThhYTEtN2M5ZGVkYzNjODA2IiwidCI6IjgxNDQwMDExLTVhZTQtNDhmNy1hY2YwLTg2ZjBkNWQ2YTFlMiJ9).
